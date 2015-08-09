@@ -1,0 +1,33 @@
+{
+  "name": "plugin-party",
+  "version": "0.0.1",
+  "description": "Plugin mixin for reusable plugin pattern",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --harmony",
+    "lint": "eslint -c ./.eslintrc lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RobinQu/plugin-party.git"
+  },
+  "keywords": [
+    "plugin",
+    "mixin"
+  ],
+  "author": "Robin Qu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinQu/plugin-party/issues"
+  },
+  "homepage": "https://github.com/RobinQu/plugin-party#readme",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^1.1.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4"
+  }
+}
