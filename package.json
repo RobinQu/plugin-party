@@ -1,6 +1,6 @@
 {
   "name": "plugin-party",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin mixin for reusable plugin pattern",
   "main": "lib/index.js",
   "scripts": {
