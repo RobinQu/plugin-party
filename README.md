@@ -1,5 +1,7 @@
 # plugin-party
 
+[![Build Status](https://travis-ci.org/RobinQu/plugin-party.svg?branch=master)](https://travis-ci.org/RobinQu/plugin-party)
+
 A drop-in support for plugin mechanism.
 
 ## Usage
@@ -27,7 +29,7 @@ var obj = {};
 installPlugin(obj);
 
 //register plugin
-obj.resiger(FooPlugin);
+obj.register(FooPlugin);
 
 //get a plugin instance
 var plugin = obj.plugin('foo', 'bar');
