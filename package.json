@@ -4,7 +4,7 @@
   "description": "Plugin mixin for reusable plugin pattern",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --harmony",
+    "test": "mocha --harmony --require ./test/test_helper.js test/*_test.js",
     "lint": "eslint -c ./.eslintrc lib"
   },
   "repository": {

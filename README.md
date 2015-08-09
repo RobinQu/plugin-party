@@ -37,6 +37,8 @@ var plugin = obj.plugin('foo', 'bar');
 obj.plugin('foo', 'bar', {hello: 'world'});
 ```
 
+More use case can be found in [test cases](test)
+
 ## License
 
 MIT
